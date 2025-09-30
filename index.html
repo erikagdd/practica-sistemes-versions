@@ -16,6 +16,16 @@
     <h2>Home</h2>
     <p>Breu descripció del curs.</p>
   </section>
+  
+  <section id="contingut">
+  <h2>Modificar contingut HTML</h2>
+  <p id="textContingut">Text original</p>
+  <button onclick="document.getElementById('textContingut').innerHTML='Text modificat!'">
+    Canviar text
+  </button>
+  <p><em>Explicació:</em> amb <code>innerHTML</code> podem canviar el contingut d’un element HTML des de JavaScript.</p>
+</section>
+
   <footer>
     <p>&copy; 2025 - Pràctica Sistemes de Control de Versions</p>
   </footer>
